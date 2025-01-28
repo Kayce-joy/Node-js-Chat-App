@@ -1,0 +1,58 @@
+/* static/styles.css */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #f7f1fc; /* Light purple background */
+    color: #4a1e8d; /* Dark purple text */
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#chat {
+    width: 60%;
+    margin: auto;
+    border: 2px solid #d6a0e2; /* Light purple border */
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #fff8fc; /* Light pinkish purple */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+#messages {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #e2c0e8; /* Soft purple border */
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: #faf0f7; /* Light pinkish background */
+    border-radius: 10px;
+}
+
+#messageInput {
+    width: 70%;
+    padding: 12px;
+    margin-right: 10px;
+    border-radius: 8px;
+    border: 1px solid #d0a1e2; /* Soft purple border */
+    font-size: 16px;
+    background-color: #f8e8fc; /* Light lavender background */
+}
+
+#sendBtn {
+    padding: 12px 25px;
+    background-color: #d6a0e2; /* Light purple button */
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#sendBtn:hover {
+    background-color: #bb7fcf; /* Darker purple on hover */
+}
+
+#sendBtn:active {
+    background-color: #9a61a3; /* Even darker purple when clicked */
+}

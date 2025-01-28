@@ -1,0 +1,14 @@
+doctype html
+html
+    head
+        title Chat App
+        link(rel="stylesheet", href="/styles.css")
+    body
+        div#chat
+            h1 Real-Time Joy Chat
+            div#messages
+            input#messageInput(type="text", placeholder="Type a message...")
+            button#sendBtn Send
+
+        script(src="/socket.io/socket.io.js") // Load Socket.IO
+        script(src="/chat.js") // Custom client logic
